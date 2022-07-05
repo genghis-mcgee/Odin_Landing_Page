@@ -1,0 +1,200 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 1em 16%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+
+
+
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #1f2937;
+  padding: 5em 16%;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  just ify-content: space-between;
+  width: 33vw;
+  height: 24vh;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero div {
+  margin-top: auto;
+}
+
+.intro-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+}
+
+.pic {
+  width: 33vw;
+  height: 24vh;
+}
+
+
+
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 16%;
+}
+
+.content-title {
+  margin-bottom: 1em;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  gap: 5%;
+}
+
+.content-block {
+
+}
+
+.content-block img {
+  max-width: 100%;
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+}
+
+.content-text {
+
+}
+
+
+
+
+
+.quote-block {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 5em 16%;
+
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.quoted {
+  font-size: 18px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+
+
+
+
+.action {
+  padding: 3em 16%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em 3em;
+  gap: 15px;
+  border-radius: 8px;
+  background-color: #3882f6;
+}
+
+.cont-head {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.cont-text {
+  color: #e5e7eb;
+}
+
+.cont-button {
+  padding: 4px 20px;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 8px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+}
+
+
+
+
+
+.footer {
+  color: #f9faf8;
+  background-color: #1f2937;
+  padding: 1em 16%;
+  text-align: center;
+}
